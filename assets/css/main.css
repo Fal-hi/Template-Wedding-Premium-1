@@ -1,0 +1,1322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Philosopher", sans-serif;
+}
+/* * Menu Mobile */
+ul.menu-mobile {
+  list-style: none;
+  position: fixed;
+  bottom: 20px;
+  left: 49.5%;
+  width: 90%;
+  background-color: #41280b;
+  z-index: 9999;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+
+ul.menu-mobile li {
+  padding: 10px 20px;
+  border-radius: 9999px;
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  -ms-border-radius: 9999px;
+  -o-border-radius: 9999px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+ul.menu-mobile li a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+ul.menu-mobile li:hover {
+  color: #41280b;
+  background-color: #fff;
+}
+
+ul.menu-mobile li a:hover {
+  color: #41280b;
+  background-color: #fff;
+}
+/* * End Menu Mobile */
+
+/* * Music */
+.tombol-musik {
+  position: fixed;
+  bottom: 130px;
+  right: 70px;
+  z-index: 9999;
+  background-color: #41280b;
+  cursor: pointer;
+  padding: 10px 18px;
+  border-radius: 9999px;
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  -ms-border-radius: 9999px;
+  -o-border-radius: 9999px;
+}
+
+.tombol-musik i {
+  color: #fff;
+  font-size: 30px;
+}
+/* * End Music */
+
+section.pembuka {
+  background-color: #41280b;
+  height: 100vh;
+}
+
+section.pembuka .text-pembuka {
+  padding-top: 25vh;
+  color: #f5f069;
+  line-height: 5rem;
+}
+
+section.pembuka .text-pembuka h2 {
+  font-size: 65px;
+}
+
+section.pembuka .text-pembuka h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.pembuka .text-pembuka a {
+  color: #f5f069;
+  font-size: 3rem;
+  list-style: none;
+}
+
+section.pembuka .text-pembuka span {
+  font-size: 24px;
+}
+
+header {
+  position: relative;
+}
+
+header .bg-large {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 52.8rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+header .header-start {
+  background: #41280b;
+  padding-top: 6.813rem;
+}
+
+header .header-start h1 {
+  z-index: 98;
+  margin-bottom: 4rem;
+  font-size: 24px;
+  color: #fff;
+}
+
+header .header-start h2 {
+  position: relative;
+  z-index: 97;
+  font-size: 65px;
+  color: #f5f069;
+}
+
+header .header-start #and {
+  margin-top: 38px;
+  font-size: 60px;
+  color: #f5f069;
+}
+
+header .header-start p {
+  font-size: 14px;
+  margin-top: 4.688rem;
+  width: 400px;
+  color: #fff;
+}
+
+header .header-start .line-decor {
+  margin-top: 38px;
+}
+
+header .header-end {
+  z-index: 98;
+  padding: 120px 0;
+}
+
+header .header-end .bg-pengantin-small {
+  display: none;
+}
+
+article#ayatMempelai {
+  background-image: url("../images/bg-main.png");
+  background-size: cover;
+}
+
+article#ayatMempelai .ayat {
+  padding-top: 29rem;
+  padding-bottom: 19rem;
+}
+
+article#ayatMempelai .ayat h2 {
+  font-size: 34px;
+  color: #41280b;
+}
+
+article#ayatMempelai .mempelai h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+article#ayatMempelai .mempelai .pengantin .pengantin-pria {
+  margin-top: 6.5rem;
+}
+
+article#ayatMempelai .mempelai .pengantin .pengantin-pria h2 {
+  font-size: 65px;
+  font-weight: 400;
+  color: #41280b;
+}
+
+article#ayatMempelai .mempelai .pengantin .pengantin-pria p {
+  font-size: 24px;
+  color: #828282;
+}
+
+article#ayatMempelai .mempelai .pengantin .pengantin-pria h4 {
+  font-size: 34px;
+  color: #41280b;
+}
+
+article#ayatMempelai .mempelai .pengantin .pengantin-wanita {
+  margin-top: 19.9rem;
+  padding-bottom: 45.75rem;
+}
+
+article#ayatMempelai .mempelai .pengantin .pengantin-wanita h2 {
+  font-size: 65px;
+  font-weight: 400;
+  color: #41280b;
+}
+
+article#ayatMempelai .mempelai .pengantin .pengantin-wanita p {
+  font-size: 24px;
+  color: #828282;
+}
+
+article#ayatMempelai .mempelai .pengantin .pengantin-wanita h4 {
+  font-size: 34px;
+  color: #41280b;
+}
+
+/* article#gallery {
+  padding: 2rem 0;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+article#gallery img.background-gallery {
+  z-index: 1;
+  width: 100%;
+  height: 535px;
+  object-fit: cover;
+  -o-object-fit: cover;
+  object-position: center;
+  -o-object-position: center;
+  overflow: hidden;
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+}
+
+article#gallery h3 {
+  text-align: center;
+  color: #efe8e8;
+}
+
+article#gallery .container {
+  z-index: 2;
+  position: absolute;
+  top: 317rem;
+  left: 5%;
+  right: 5%;
+}
+
+article#gallery .list-images {
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  padding: 1rem;
+  display: grid;
+  grid-template-areas:
+    "g1 g2 g3 g4"
+    "g1 g5 g6 g6"
+    "g7 g8 g6 g6";
+}
+
+article#gallery .list-images .card {
+  margin: 0.5rem;
+  background-color: transparent;
+  border: 0;
+}
+
+article#gallery .list-images .card img {
+  overflow: hidden;
+  object-fit: cover;
+  -o-object-fit: cover;
+  object-position: center;
+  -o-object-position: center;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  filter: drop-shadow(0 0 3px grey);
+  -webkit-filter: drop-shadow(0 0 3px grey);
+}
+article#gallery .list-images .gallery1 {
+  grid-area: g1;
+}
+article#gallery .list-images .gallery2 {
+  grid-area: g2;
+}
+article#gallery .list-images .gallery3 {
+  grid-area: g3;
+}
+article#gallery .list-images .gallery4 {
+  grid-area: g4;
+}
+article#gallery .list-images .gallery5 {
+  grid-area: g5;
+}
+article#gallery .list-images .gallery6 {
+  grid-area: g6;
+}
+article#gallery .list-images .gallery7 {
+  grid-area: g7;
+}
+article#gallery .list-images .gallery8 {
+  grid-area: g8;
+}
+
+/* article#gallery h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+article#gallery img.dekor-garis {
+  margin: auto auto 5rem auto;
+}
+
+article#gallery img {
+  height: 100% !important;
+} */
+/* 
+article#galery .frame {
+  position: relative;
+}
+
+article#galery .frame img {
+  width: 100%;
+}
+
+article#galery .frame .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+article#galery .frame .slider img {
+  padding: 8rem;
+}
+
+article#galery .frame .slider .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+article#galery .frame .slider .item img {
+  width: 52%;
+  margin: -2rem 20rem;
+  text-align: center;
+}
+
+article#galery .frame .frame2 {
+  margin-top: -33rem;
+}
+
+article#galery .text {
+  position: absolute;
+  margin-top: -16rem;
+}
+
+article#galery .text h2 {
+  z-index: 500 !important;
+  color: #41280b;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+}
+
+article#galery .text p {
+  font-size: 34px;
+  font-weight: 400;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+} */
+
+section.acara {
+  background-color: #efe8e8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20rem;
+}
+
+article#waktuAcara .tanggal {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+article#waktuAcara .tanggal h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #41280b;
+}
+
+article#waktuAcara .tanggal p {
+  font-size: 24px;
+  color: #828282;
+}
+
+article#waktuAcara .hari {
+  margin-bottom: 2rem;
+}
+
+article#waktuAcara .hari h1 {
+  margin-bottom: 1rem;
+}
+
+article#waktuAcara .hari p {
+  font-size: 18px;
+  color: #828282;
+}
+
+article#waktuAcara .waktu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+article#waktuAcara .waktu .jam,
+article#waktuAcara .waktu .menit,
+article#waktuAcara .waktu .detik {
+  margin: 0 3rem;
+}
+
+article#waktuAcara .tamu {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+article#waktuAcara .tamu h1 {
+  margin-bottom: 0.5rem;
+}
+
+article#waktuAcara .tamu p {
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 1.3rem;
+  color: #828282;
+}
+
+article#waktuAcara .konfirmasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+article#waktuAcara .konfirmasi button {
+  background-color: #41280b;
+  color: #efe8e8;
+  /* padding: 1rem 1rem; */
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+}
+
+article#waktuAcara .konfirmasi i.bi {
+  border: 1px solid #41280b;
+  color: #41280b;
+  padding: 0.5rem 0.8rem;
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+}
+
+article#waktuAcara .akad-nikah,
+article#waktuAcara .resepsi,
+article#waktuAcara .unduh-mantu {
+  margin-top: 5rem;
+}
+
+article#waktuAcara .akad-nikah h2,
+article#waktuAcara .resepsi h2,
+article#waktuAcara .unduh-mantu h2 {
+  font-size: 34px;
+  color: #41280b;
+  font-weight: 700;
+}
+
+article#waktuAcara .akad-nikah p,
+article#waktuAcara .resepsi p,
+article#waktuAcara .unduh-mantu p {
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 1.3rem;
+  color: #828282;
+}
+
+article#waktuAcara .akad-nikah a,
+article#waktuAcara .resepsi a,
+article#waktuAcara .unduh-mantu a {
+  background-color: #41280b;
+  color: #efe8e8;
+  /* padding: 1rem 1rem; */
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+}
+
+article#waktuAcara .harapan-untuk-hadir {
+  padding: 5rem 1rem;
+}
+
+article#waktuAcara .harapan-untuk-hadir p {
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 1.3rem;
+  color: #828282;
+}
+
+article#waktuAcara .akad-nikah .google-map,
+article#waktuAcara .resepsi .google-map,
+article#waktuAcara .unduh-mantu .google-map {
+  height: 400px;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+article#undanganKeluargaBesar .container {
+  margin-top: 3rem;
+}
+
+article#undanganKeluargaBesar h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #41280b;
+}
+
+article#undanganKeluargaBesar .mempelai-pria {
+  margin-top: 2rem;
+}
+
+article#undanganKeluargaBesar .mempelai-wanita {
+  margin-top: 6rem;
+}
+
+article#undanganKeluargaBesar .mempelai-pria p,
+article#undanganKeluargaBesar .mempelai-wanita p {
+  font-size: 18px;
+  color: #828282;
+  margin-bottom: 0;
+}
+
+.kartu-ucapan {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.kartu-ucapan .tulis-pesan .card,
+.kartu-ucapan .daftar-kartu .card {
+  background-color: #ffffff;
+  width: 55%;
+}
+
+.kartu-ucapan .tulis-pesan .card form {
+  padding: 0.5rem 4rem;
+  width: 100%;
+}
+
+.kartu-ucapan .tulis-pesan .card form input[type="text"] {
+  background-color: #f9f9f9;
+}
+
+.kartu-ucapan .tulis-pesan .card form input[type="text"]:focus {
+  box-shadow: none;
+}
+
+.kartu-ucapan .tulis-pesan .card form input[type="text"]::placeholder {
+  color: #efe8e8;
+  opacity: 1; /* Firefox */
+}
+
+.kartu-ucapan .tulis-pesan .card form input[type="text"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #efe8e8;
+}
+
+.kartu-ucapan
+  .tulis-pesan
+  .card
+  form
+  input[type="text"]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #efe8e8;
+}
+
+.kartu-ucapan .tulis-pesan .card form button.btn {
+  background-color: #41280b;
+  color: #efe8e8;
+  /* padding: 1rem 1rem; */
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+}
+
+.kartu-ucapan .daftar-kartu,
+.kartu-ucapan .tulis-pesan {
+  margin: 0 0.1rem;
+}
+
+.kartu-ucapan .daftar-kartu .card {
+  height: 520px;
+  overflow-y: scroll;
+}
+
+.kartu-ucapan .daftar-kartu .card .kepala-card {
+  background-color: #41280b;
+  color: #efe8e8;
+}
+
+.kartu-ucapan .daftar-kartu .card .kepala-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 1rem 3rem;
+}
+
+.kartu-ucapan .daftar-kartu .card .kepala-body img {
+  width: 10%;
+  border: 1px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.kartu-ucapan .daftar-kartu .card .kepala-body .nama {
+  line-height: 0;
+}
+
+.kartu-ucapan .daftar-kartu .card .kepala-body .nama h5 {
+  font-weight: bold;
+}
+
+.kartu-ucapan .daftar-kartu .card .kepala-body .nama p {
+  font-size: 14px;
+  color: #828282;
+}
+
+.kartu-ucapan .daftar-kartu .card .kepala-body p {
+  font-size: 10px;
+  color: #828282;
+}
+
+.kartu-ucapan .daftar-kartu .card .card-body {
+  padding: 0 3rem;
+}
+
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+/* ? Breakpoints Phone */
+@media (max-width: 576px) {
+  article#gallery .container img.garis {
+    width: 50%;
+  }
+  article#gallery .container {
+    z-index: 2;
+    position: absolute;
+    top: 132rem;
+    /* left: 5%; */
+    /* right: 5%; */
+  }
+  article#gallery .list-images {
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    padding: 1rem;
+    display: grid;
+    grid-template-areas:
+      "g1 g2"
+      "g1 g3"
+      "g4 g5"
+      "g6 g7"
+      "g8 g8";
+  }
+}
+
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+/* ? Breakpoints Tablets */
+@media (max-width: 768px) {
+  ul.menu-mobile {
+    bottom: 20px;
+    width: 90%;
+    left: 50%;
+  }
+
+  ul.menu-mobile li a {
+    font-size: 1.5rem;
+  }
+
+  .tombol-musik {
+    bottom: 105px;
+    right: 20px;
+    padding: 5px 14px;
+  }
+
+  section.pembuka .text-pembuka {
+    padding-top: 22vh;
+    color: #f5f069;
+    line-height: 0;
+  }
+
+  section.pembuka .text-pembuka h2 {
+    font-size: 50px;
+  }
+
+  section.pembuka .text-pembuka h3 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+  }
+
+  section.pembuka .text-pembuka span {
+    font-size: 24px;
+    line-height: 1.6rem;
+    padding-bottom: 2rem;
+  }
+
+  section.pembuka .text-pembuka span.uk {
+    line-height: 6rem;
+  }
+
+  section.pembuka .text-pembuka a {
+    color: #f5f069;
+    font-size: 3rem;
+  }
+
+  header .bg-small {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 315px;
+  }
+  header .header-start {
+    padding-bottom: 50px;
+  }
+  header .header-start h2 {
+    font-size: 38px;
+  }
+  header .header-start #and {
+    font-size: 40px;
+  }
+  header .header-start .text-header-pengantin {
+    margin-top: 42px;
+  }
+  header .header-start p {
+    font-size: 12px;
+    margin-top: 28px;
+    width: 275px;
+    color: #fff;
+  }
+  header .header-start .line-decor {
+    margin-top: 10px;
+  }
+  header .header-start .line-decor img {
+    max-width: 80%;
+  }
+  header .header-end {
+    padding-top: 64px;
+    max-height: 315px;
+  }
+  header .header-end h1 {
+    font-size: 24px;
+  }
+  header .header-end img {
+    width: 208px;
+    margin-top: 47px;
+  }
+  article#ayatMempelai {
+    background-image: url("../images/bg-main-small.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 78em;
+    position: relative;
+  }
+  article#ayatMempelai .ayat {
+    padding-top: 8.3em;
+    padding-bottom: 7.9em;
+  }
+  article#ayatMempelai .ayat h2 {
+    font-size: 10px;
+  }
+  article#ayatMempelai .mempelai {
+    height: 55.2em;
+  }
+  article#ayatMempelai .mempelai h2,
+  article#gallery h2 {
+    font-size: 24px;
+  }
+  article#ayatMempelai .mempelai .dekor-garis,
+  article#waktuAcara .dekor-garis,
+  article#gallery .dekor-garis {
+    width: 70%;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria {
+    margin-top: 1.6em;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 1.5em !important;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria p {
+    margin-top: 0.6em !important;
+    font-size: 12px;
+    margin-bottom: 0.5em !important;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria h4 {
+    font-size: 14px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita {
+    margin-top: 4.75em;
+    padding-bottom: 0px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 1.5em !important;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita p {
+    margin-top: 0.6em !important;
+    font-size: 12px;
+    margin-bottom: 0.5em !important;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita h4 {
+    font-size: 14px;
+  }
+  article#gallery img.background-gallery {
+    height: 445px;
+  }
+  article#gallery .container {
+    z-index: 2;
+    position: absolute;
+    top: 132rem;
+    left: 0;
+    /* right: 5%; */
+  }
+  /* article#gallery {
+    padding-top: 5.5rem;
+  }
+
+  article#gallery img {
+    padding-bottom: 0.3rem;
+  } */
+
+  /* article#galery .frame {
+    position: relative;
+  }
+  article#galery .frame img {
+    width: 100%;
+  }
+  article#galery .frame .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  article#galery .frame .slider img {
+    padding: 1.5em;
+  }
+  article#galery .frame .slider .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  article#galery .frame .slider .item img {
+    width: 90%;
+    margin: 0 1em;
+    text-align: center;
+  }
+  article#galery .frame .frame2 {
+    margin-top: -7em;
+  }
+  article#galery .text {
+    margin-top: -8.5em;
+    position: relative;
+  }
+  article#galery .text h2 {
+    z-index: 500 !important;
+    color: #41280b;
+    font-size: 18px;
+
+    font-weight: 700;
+    text-align: center;
+  }
+  article#galery .text p {
+    font-size: 12px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  } */
+  article#waktuAcara .tanggal {
+    padding-top: 5.5rem;
+  }
+  article#waktuAcara .akad-nikah,
+  article#waktuAcara .resepsi,
+  article#waktuAcara .unduh-mantu {
+    padding-bottom: 6rem;
+  }
+  article#waktuAcara .akad-nikah .alamat,
+  article#waktuAcara .resepsi .alamat,
+  article#waktuAcara .unduh-mantu .alamat {
+    padding: 0 1rem;
+  }
+  .kartu-ucapan .daftar-kartu .card,
+  .kartu-ucapan .tulis-pesan .card {
+    width: 100%;
+  }
+  .kartu-ucapan .daftar-kartu .card .kepala-body {
+    padding: 1rem 1rem;
+  }
+  .kartu-ucapan .daftar-kartu .card .card-body {
+    padding: 0 1rem;
+  }
+  .kartu-ucapan .tulis-pesan .card form {
+    padding: 0.2rem 1rem;
+  }
+}
+
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+/* ? Breakpoints Desktop */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  ul.menu-mobile {
+    bottom: 20px;
+    width: 90%;
+    left: 49.5%;
+  }
+
+  ul.menu-mobile li a {
+    font-size: 2rem;
+  }
+
+  .tombol-musik {
+    right: 50px;
+  }
+
+  header {
+    max-height: 33em;
+    position: relative;
+  }
+  header .bg-large {
+    max-height: 33em;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  header .header-start {
+    max-height: 33em;
+    padding-top: 5.5em;
+  }
+  header .header-start h1 {
+    font-size: 24px;
+    margin-bottom: 2em;
+  }
+  header .header-start h2 {
+    font-size: 38px;
+  }
+  header .header-start #and {
+    font-size: 40px;
+  }
+  header .header-start p {
+    margin-top: 3em;
+    font-size: 12px;
+    width: 275px;
+  }
+  header .header-start .line-decor {
+    margin-top: 10px;
+  }
+  header .header-start .line-decor img {
+    width: 300px;
+  }
+  header .header-end {
+    max-height: 33em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .header-end img {
+    max-width: 15em;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  article#ayatMempelai {
+    background-image: url("../images/bg-main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 185em;
+  }
+  article#ayatMempelai .ayat {
+    padding-top: 20em;
+    padding-bottom: 17em;
+  }
+  article#ayatMempelai .ayat h2 {
+    font-size: 24px;
+  }
+  article#ayatMempelai .mempelai {
+    height: 135em;
+  }
+  article#ayatMempelai .mempelai .dekor-garis,
+  article#waktuAcara .dekor-garis,
+  article#gallery .dekor-garis {
+    width: 70%;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria {
+    margin-top: 5em;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria img {
+    width: 50%;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria h2 {
+    font-weight: 700;
+    font-size: 38px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria p {
+    margin-top: 1.3em !important;
+    margin-bottom: 1.2em !important;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria h4 {
+    font-size: 28px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita {
+    margin-top: 14em;
+    padding-bottom: 0px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita img {
+    width: 50%;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita h2 {
+    font-weight: 700;
+    font-size: 38px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita p {
+    margin-top: 1.3em !important;
+    margin-bottom: 1.2em !important;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita h4 {
+    font-size: 28px;
+  }
+  article#gallery img.background-gallery {
+    height: 560px;
+  }
+  article#gallery .container {
+    z-index: 2;
+    position: absolute;
+    top: 220rem;
+    left: 5%;
+    right: 5%;
+  }
+  article#gallery .container img.garis {
+    width: 70%;
+  }
+  /* SIZE NOTEBOOK */
+  /* article#galery .frame img {
+    width: 100%;
+    margin-bottom: 12rem;
+  }
+  article#galery .frame .slider .item img {
+    width: 35%;
+    margin: 3rem 17rem;
+    text-align: center;
+  }
+  article#galery .frame .slider img {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  article#galery .text {
+    margin-top: -23rem;
+  }
+  article#galery .text p {
+    width: 75%;
+  } */
+  .kartu-ucapan .daftar-kartu .card,
+  .kartu-ucapan .tulis-pesan .card {
+    width: 60%;
+  }
+  .kartu-ucapan .daftar-kartu .card .kepala-body {
+    padding: 1rem 2rem;
+  }
+  .kartu-ucapan .daftar-kartu .card .card-body {
+    padding: 0 2rem;
+  }
+  .kartu-ucapan .tulis-pesan .card form {
+    padding: 0.2rem 2rem;
+  }
+}
+
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+/* ? Breakpoints Large Desktop */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  ul.menu-mobile {
+    bottom: 20px;
+    width: 90%;
+    left: 50%;
+  }
+
+  ul.menu-mobile li a {
+    font-size: 2rem;
+  }
+
+  section.pembuka .text-pembuka {
+    padding-top: 12vh;
+    line-height: 0;
+  }
+  section.pembuka .text-pembuka span.uk {
+    line-height: 6rem;
+  }
+  section.pembuka .text-pembuka h3 {
+    padding-bottom: 2rem;
+  }
+  section.pembuka .text-pembuka span {
+    line-height: 2rem;
+  }
+  header {
+    max-height: 44rem;
+    position: relative;
+  }
+  header .bg-large {
+    max-height: 44rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  header .header-start {
+    max-height: 44rem;
+    padding-top: 6.813rem;
+  }
+  header .header-start h1 {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+  header .header-start h2 {
+    font-size: 55px;
+  }
+  header .header-start #and {
+    font-size: 50px;
+  }
+  header .header-start p {
+    margin-top: 2.5rem;
+    font-size: 16px;
+    width: 400px;
+  }
+  header .header-start .line-decor {
+    margin-top: 10px;
+  }
+  header .header-start .line-decor img {
+    width: 400px;
+  }
+  header .header-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 44rem;
+  }
+  header .header-end img {
+    max-width: 100%;
+    vertical-align: middle !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  /* Main Content */
+  article#ayatMempelai {
+    background-image: url("../images/bg-main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 235rem;
+  }
+  article#ayatMempelai .mempelai {
+    height: 100%;
+  }
+  article#ayatMempelai .mempelai h2,
+  article#gallery h2 {
+    font-size: 55px;
+  }
+  article#ayatMempelai .mempelai .dekor-garis,
+  article#waktuAcara .dekor-garis,
+  article#gallery .dekor-garis {
+    width: 70%;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria {
+    margin-top: 5rem;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria img {
+    width: 50%;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria h2 {
+    font-weight: 700;
+    font-size: 48px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-pria p {
+    margin-top: 1.6rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita {
+    margin-top: 14rem;
+    padding-bottom: 0px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita img {
+    width: 50%;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita h2 {
+    font-weight: 700;
+    font-size: 48px;
+  }
+  article#ayatMempelai .mempelai .pengantin .pengantin-wanita p {
+    margin-top: 1.6rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  article .frame {
+    z-index: -1;
+  }
+  article#waktuAcara {
+    z-index: 1;
+  }
+  article#gallery .container {
+    z-index: 2;
+    position: absolute;
+    top: 281rem;
+    left: 0%;
+    right: 0%;
+  }
+  article#gallery img.background-gallery {
+    height: 470px;
+  }
+  /* article#galery .frame img {
+    margin-bottom: 5rem;
+  }
+  article#galery .frame .frame2 {
+    margin-top: -29rem;
+  }
+  article#galery .frame .slider .item img {
+    width: 52%;
+    margin: -2rem 15rem;
+    text-align: center;
+  }
+  article#galery .text {
+    position: relative;
+    margin-top: -24rem;
+    height: 250px;
+  }
+  article#galery .text p {
+    font-size: 30px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }  */
+}
+/*# sourceMappingURL=main.css.map */
