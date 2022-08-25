@@ -229,14 +229,6 @@ article#ayatMempelai .mempelai .pengantin .pengantin-wanita h4 {
   color: #41280b;
 }
 
-/* article#gallery {
-  padding: 2rem 0;
-  height: auto;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 article#gallery img.background-gallery {
   z-index: 1;
   width: 100%;
@@ -319,77 +311,6 @@ article#gallery .list-images .gallery8 {
   grid-area: g8;
 }
 
-/* article#gallery h2 {
-  font-size: 38px;
-  font-weight: 700;
-}
-article#gallery img.dekor-garis {
-  margin: auto auto 5rem auto;
-}
-
-article#gallery img {
-  height: 100% !important;
-} */
-/* 
-article#galery .frame {
-  position: relative;
-}
-
-article#galery .frame img {
-  width: 100%;
-}
-
-article#galery .frame .slider {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-article#galery .frame .slider img {
-  padding: 8rem;
-}
-
-article#galery .frame .slider .item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-article#galery .frame .slider .item img {
-  width: 52%;
-  margin: -2rem 20rem;
-  text-align: center;
-}
-
-article#galery .frame .frame2 {
-  margin-top: -33rem;
-}
-
-article#galery .text {
-  position: absolute;
-  margin-top: -16rem;
-}
-
-article#galery .text h2 {
-  z-index: 500 !important;
-  color: #41280b;
-  font-size: 38px;
-  font-weight: 700;
-  text-align: center;
-}
-
-article#galery .text p {
-  font-size: 34px;
-  font-weight: 400;
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-} */
-
 section.acara {
   background-color: #efe8e8;
   background-position: center;
@@ -466,7 +387,6 @@ article#waktuAcara .konfirmasi {
 article#waktuAcara .konfirmasi button {
   background-color: #41280b;
   color: #efe8e8;
-  /* padding: 1rem 1rem; */
   border-radius: 999px;
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
@@ -883,66 +803,7 @@ article#undanganKeluargaBesar .mempelai-wanita p {
     position: absolute;
     top: 132rem;
     left: 0;
-    /* right: 5%; */
   }
-  /* article#gallery {
-    padding-top: 5.5rem;
-  }
-
-  article#gallery img {
-    padding-bottom: 0.3rem;
-  } */
-
-  /* article#galery .frame {
-    position: relative;
-  }
-  article#galery .frame img {
-    width: 100%;
-  }
-  article#galery .frame .slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-  article#galery .frame .slider img {
-    padding: 1.5em;
-  }
-  article#galery .frame .slider .item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  article#galery .frame .slider .item img {
-    width: 90%;
-    margin: 0 1em;
-    text-align: center;
-  }
-  article#galery .frame .frame2 {
-    margin-top: -7em;
-  }
-  article#galery .text {
-    margin-top: -8.5em;
-    position: relative;
-  }
-  article#galery .text h2 {
-    z-index: 500 !important;
-    color: #41280b;
-    font-size: 18px;
-
-    font-weight: 700;
-    text-align: center;
-  }
-  article#galery .text p {
-    font-size: 12px;
-    font-weight: 400;
-    width: 60%;
-    text-align: center;
-    margin: 0 auto;
-  } */
   article#waktuAcara .tanggal {
     padding-top: 5.5rem;
   }
@@ -1111,26 +972,6 @@ article#undanganKeluargaBesar .mempelai-wanita p {
   article#gallery .container img.garis {
     width: 70%;
   }
-  /* SIZE NOTEBOOK */
-  /* article#galery .frame img {
-    width: 100%;
-    margin-bottom: 12rem;
-  }
-  article#galery .frame .slider .item img {
-    width: 35%;
-    margin: 3rem 17rem;
-    text-align: center;
-  }
-  article#galery .frame .slider img {
-    padding: 1rem;
-    margin-top: 2rem;
-  }
-  article#galery .text {
-    margin-top: -23rem;
-  }
-  article#galery .text p {
-    width: 75%;
-  } */
   .kartu-ucapan .daftar-kartu .card,
   .kartu-ucapan .tulis-pesan .card {
     width: 60%;
@@ -1292,28 +1133,5 @@ article#undanganKeluargaBesar .mempelai-wanita p {
   article#gallery img.background-gallery {
     height: 470px;
   }
-  /* article#galery .frame img {
-    margin-bottom: 5rem;
-  }
-  article#galery .frame .frame2 {
-    margin-top: -29rem;
-  }
-  article#galery .frame .slider .item img {
-    width: 52%;
-    margin: -2rem 15rem;
-    text-align: center;
-  }
-  article#galery .text {
-    position: relative;
-    margin-top: -24rem;
-    height: 250px;
-  }
-  article#galery .text p {
-    font-size: 30px;
-    font-weight: 400;
-    width: 60%;
-    text-align: center;
-    margin: 0 auto;
-  }  */
 }
 /*# sourceMappingURL=main.css.map */
