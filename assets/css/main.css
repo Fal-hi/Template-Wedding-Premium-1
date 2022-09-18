@@ -232,7 +232,7 @@ article#ayatMempelai .mempelai .pengantin .pengantin-wanita h4 {
 article#gallery img.background-gallery {
   z-index: 1;
   width: 100%;
-  height: 535px;
+  height: 750px;
   object-fit: cover;
   -o-object-fit: cover;
   object-position: center;
@@ -316,7 +316,6 @@ section.acara {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 20rem;
 }
 
 article#waktuAcara .tanggal {
@@ -796,7 +795,7 @@ article#undanganKeluargaBesar .mempelai-wanita p {
     font-size: 14px;
   }
   article#gallery img.background-gallery {
-    height: 445px;
+    height: 810px;
   }
   article#gallery .container {
     z-index: 2;
@@ -960,7 +959,7 @@ article#undanganKeluargaBesar .mempelai-wanita p {
     font-size: 28px;
   }
   article#gallery img.background-gallery {
-    height: 560px;
+    height: 510px;
   }
   article#gallery .container {
     z-index: 2;
@@ -1131,7 +1130,7 @@ article#undanganKeluargaBesar .mempelai-wanita p {
     right: 0%;
   }
   article#gallery img.background-gallery {
-    height: 470px;
+    height: 650px;
   }
 }
 /*# sourceMappingURL=main.css.map */
